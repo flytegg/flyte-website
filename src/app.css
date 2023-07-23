@@ -5,9 +5,30 @@
     body {
         background-color: #121012;
     }
+
     @font-face {
         font-family: 'Inter';
         src: url('/font/Inter-VariableFont.ttf');
         font-weight: 1 999;
+    }
+
+    .primary-button {
+        @apply w-full bg-[#292729] text-white text-lg p-3 hover:bg-[#FFFFFF] hover:text-black transition-all rounded-[6px] font-semibold
+    }
+
+    .secondary-button {
+        @apply border-[2px] border-[#292729] text-white text-lg p-3 hover:border-[#FFFFFF] hover:text-white transition-all rounded-[6px] font-semibold
+    }
+
+    .primary-input {
+        @apply bg-transparent border-[2px] border-[#292729] placeholder-[#888788] p-3 rounded-[6px] focus:border-[#FFFFFF]
+    }
+
+    .secondary-input {
+
+    }
+
+    .link {
+        @apply hover:fill-[#F37BDA] hover:text-[#F37BDA]
     }
 }
