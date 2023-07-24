@@ -29,6 +29,31 @@
     }
 
     .link {
-        @apply hover:fill-[#F37BDA] hover:text-[#F37BDA]
+        @apply hover:fill-[#F37BDA] hover:text-[#F37BDA] transition-all
+    }
+
+    * {
+        font-family: 'Inter', sans-serif;
+    }
+
+    img {
+        pointer-events: none;
+    }
+
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    ::-webkit-scrollbar-track-piece {
+        background-color: #151516
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: rgba(36, 36, 38, 0.6);;
+        border-radius: 5px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: rgba(36, 36, 38, 0.6);;
     }
 }
