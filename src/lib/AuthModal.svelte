@@ -21,7 +21,7 @@
 
 <div class="flex flex-col pt-6 px-4 sm:px-0 sm:pt-0 sm:justify-center sm:items-center h-screen bg-[#0D0B0D]">
     <a href="/">
-        <img src="/logo.png" alt="Flyte Logo" class="mb-4 mx-auto h-8 w-fit">
+        <img src="/logo.png" alt="Flyte Logo" class="mb-4 mx-auto h-8 w-24">
     </a>
     <div class="bg-[#121012] p-4 sm:p-12 flex flex-col text-white sm:w-[500px] min-w-[250px] rounded-[6px]">
         <h1 class="font-medium text-3xl">{signup ? 'Create account' : 'Welcome back'}</h1>

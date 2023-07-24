@@ -1,6 +1,6 @@
 <footer class="py-16 flex flex-col gap-14">
     <div class="flex flex-col md:flex-row text-white justify-between gap-8">
-        <img src="logo.png" alt="Logo" class="h-14 w-fit">
+        <img src="logo.png" alt="Logo" class="h-14 w-44">
         <div class="flex flex-col text-left md:text-right gap-3">
             <a class="font-medium text-4xl link text-white" href="mailto:hello@flyte.gg">hello@flyte.gg</a>
             <div class="font-medium text-[#b6b5b6] text-[22px]">
