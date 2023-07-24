@@ -64,13 +64,11 @@
         <button on:click={go} class="mt-6 primary-button">{signup ? 'Create account' : 'Sign in'}</button>
         <div class="flex text-md mx-auto gap-1.5 mt-6">
             <p class="text-[#b7b7b7]">{signup ? 'Already have an account?' : 'Don\'t have an account?'}</p>
-            <a class="flex gap-1.5 link" href={signup ? '/signin' : '/signup'}>
-                <p>{signup ? 'Sign in' : 'Sign up'}</p>
-                <div class="group">
-                    <svg class="h-4 w-4 mt-1.5" width="23" height="24" viewBox="0 0 23 24" xmlns="http://www.w3.org/2000/svg">
-                        <path class="fill-current group-hover:F37BDA transition-all" d="M21.0622 0.75C21.9974 0.75 22.7497 1.50234 22.7497 2.4375V19.3125C22.7497 20.2477 21.9974 21 21.0622 21C20.1271 21 19.3747 20.2477 19.3747 19.3125V6.50859L3.13252 22.7578C2.47159 23.4187 1.40284 23.4187 0.748929 22.7578C0.095023 22.0969 0.0879918 21.0281 0.748929 20.3742L16.9911 4.13203H4.18721C3.25205 4.13203 2.49971 3.37969 2.49971 2.44453C2.49971 1.50937 3.25205 0.757031 4.18721 0.757031H21.0622V0.75Z"/>
-                    </svg>
-                </div>
+            <a class="flex gap-1.5 items-center link group" href={signup ? '/signin' : '/signup'}>
+                <p class="link">{signup ? 'Sign in' : 'Sign up'}</p>
+                <svg class="w-6 h-6 link" xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" viewBox="0 0 37 49">
+                    <path d="M31.6062 9.1875C32.8877 9.1875 33.9187 10.2115 33.9187 11.4844V34.4531C33.9187 35.726 32.8877 36.75 31.6062 36.75C30.3246 36.75 29.2937 35.726 29.2937 34.4531V17.0256L7.03584 39.1426C6.13012 40.0422 4.66553 40.0422 3.76944 39.1426C2.87334 38.243 2.86371 36.7883 3.76944 35.8982L26.0272 13.7908H8.48116C7.19965 13.7908 6.16866 12.7668 6.16866 11.4939C6.16866 10.2211 7.19965 9.19707 8.48116 9.19707H31.6062V9.1875Z" class="text-white"/>
+                </svg>
             </a>
         </div>
     </div>

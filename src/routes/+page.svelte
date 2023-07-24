@@ -32,15 +32,15 @@ import Footer from "$lib/Footer.svelte";
 <section class="bg-[#121012]" id="portfolio">
     <div class="w-[90%] 2xl:w-[65%] mx-auto py-20">
         <h1 class="text-white text-6xl">Latest projects</h1>
-        <div class="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4 gap-10 mt-16">
-            <Project path="/projects/learnspigot.svg" alt="LearnSpigot Thread" title="LearnSpigot" description="Web Design, Digital Course"/>
-            <Project path="/projects/mc-utils.svg" alt="MCUtils Thread" title="MC Utils" description="Web Design, Web Development"/>
-            <Project path="/projects/plugin-portal.svg" alt="PluginPortal Thread" title="Plugin Portal" description="Software Development"/>
-            <Project path="/projects/flyte-domains.svg" alt="Flyte Domains" title="Flyte Domains" description="Web Design, Digital Course"/>
-            <Project path="/projects/galamo.svg" alt="MC License Thread" title="Galamo" description="Competitive Esports, Web Design"/>
-            <Project path="/projects/mc-license.svg" alt="MC Thread" title="MC License" description="Web Design, Web Development"/>
-            <Project path="/projects/the-crafting-times.svg" alt="The Crafting Times" title="Crafting Times" description="Software Development"/>
-            <Project path="/projects/rcl.svg" alt="Galamo Thread" title="RCL" description="Competitive Esports, Web Design"/>
+        <div class="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4 gap-7 mt-16">
+            <Project path="/projects/learnspigot.svg" alt="LearnSpigot Thread" title="LearnSpigot" description="Digital Course"/>
+            <Project path="/projects/mc-utils.svg" alt="MCUtils Thread" title="MC Utils" description="Development Tools"/>
+            <Project path="/projects/plugin-portal.svg" alt="PluginPortal Thread" title="Plugin Portal" description="Consumer Software"/>
+            <Project path="/projects/flyte-domains.svg" alt="Flyte Domains" title="Flyte Domains" description="Domain Registrar"/>
+            <Project path="/projects/galamo.svg" alt="MC License Thread" title="Galamo" description="Esports Team"/>
+            <Project path="/projects/mc-license.svg" alt="MC Thread" title="MC License" description="Development Tools"/>
+            <Project path="/projects/the-crafting-times.svg" alt="The Crafting Times" title="Crafting Times" description="Media Outlet"/>
+            <Project path="/projects/rcl.svg" alt="Galamo Thread" title="RCL" description="Competitive Esports Events"/>
         </div>
         <h2 class="text-white text-[30px] mt-16">Want to work with us?</h2>
         <div>
@@ -54,8 +54,8 @@ import Footer from "$lib/Footer.svelte";
                 <div class="flex flex-col font-medium gap-6 w-[100%] lg:w-[50%]">
                     <h1 class="text-white text-6xl">Need a .gg domain?</h1>
                     <h2 class="text-[#b6b5b6] text-2xl">We’re about to start selling .gg domains, as well as .je, .co.gg, .net.gg, .org.gg, .co.je, .net.je and .org.je.</h2>
-                    <a class="flex gap-2 items-center group">
-                        <a href="/domains" class="link font-medium text-[30px] text-white">See more</a>
+                    <a href="/domains" class="flex gap-2 items-center group w-fit">
+                        <p href="/domains" class="link font-medium text-[30px] text-white">See more</p>
                         <svg class="w-9 h-9 link" xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" viewBox="0 0 37 49">
                             <path d="M31.6062 9.1875C32.8877 9.1875 33.9187 10.2115 33.9187 11.4844V34.4531C33.9187 35.726 32.8877 36.75 31.6062 36.75C30.3246 36.75 29.2937 35.726 29.2937 34.4531V17.0256L7.03584 39.1426C6.13012 40.0422 4.66553 40.0422 3.76944 39.1426C2.87334 38.243 2.86371 36.7883 3.76944 35.8982L26.0272 13.7908H8.48116C7.19965 13.7908 6.16866 12.7668 6.16866 11.4939C6.16866 10.2211 7.19965 9.19707 8.48116 9.19707H31.6062V9.1875Z" class="text-white"/>
                         </svg>
