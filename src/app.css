@@ -29,7 +29,7 @@
     }
 
     .link {
-        @apply hover:fill-[#F37BDA] hover:text-[#F37BDA] transition-all
+        @apply hover:fill-[#F37BDA] hover:text-[#F37BDA] transition-all group-hover:text-[#F37BDA] group-hover:fill-[#F37BDA]
     }
 
     * {

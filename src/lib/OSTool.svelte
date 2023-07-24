@@ -10,7 +10,7 @@
         <div class="w-fit bg-[#171517] p-2.5 border-[1px] border-[#201e20]">
             <img src="/os-tools/{image}.svg" alt="{title} Logo" class="h-9 w-9">
         </div>
-        <h2 class="font-medium text-white text-4xl mt-6 mb-4">{title}</h2>
+        <h2 class="font-medium text-white text-[34px] mt-4 mb-4">{title}</h2>
         <p class="font-medium text-[#b7b7b7] text-2xl">{description}</p>
         <a class="flex mt-6 gap-3 items-center">
             <svg class="h-8 w-8" width="45" height="46" viewBox="0 0 45 46" fill="none" xmlns="http://www.w3.org/2000/svg">

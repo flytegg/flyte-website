@@ -20,7 +20,6 @@
 </script>
 
 <div class="flex flex-col pt-6 px-4 sm:px-0 sm:pt-0 sm:justify-center sm:items-center h-screen bg-[#0D0B0D]">
-    <img src="wireframe-logo.svg" alt="Wireframe Flyte Logo" class="absolute h-screen w-fit z-[-1]">
     <a href="/">
         <img src="/logo.png" alt="Flyte Logo" class="mb-4 mx-auto h-8 w-fit">
     </a>
