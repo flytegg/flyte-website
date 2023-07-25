@@ -12,7 +12,8 @@
 </script>
 
 <section class="bg-[#0d0b0d] relative">
-    <img src="/misc/blur.svg" alt="Blur" class="absolute top-0 w-[70%]">
+    <img src="/misc/blur.svg" alt="Blur" class="absolute top-0 w-[70%] z-30">
+    <img src="/misc/wireframe-logo.svg" alt="Blur" class="absolute right-16 top-[-230px] w-[800px] z-0">
     <div class="w-[90%] mx-auto">
         <Navbar />
     </div>
@@ -38,7 +39,7 @@
     </div>
 </section>
 
-<section class="bg-[#121012]" id="portfolio">
+<section class="bg-[#121012] z-20 relative" id="portfolio">
     <div class="w-[90%] 2xl:w-[70%] mx-auto pt-20 pb-14">
         <h1 class="text-white text-5xl text-[45px]">Our latest projects</h1>
     </div>
