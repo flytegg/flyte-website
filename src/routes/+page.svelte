@@ -1,5 +1,14 @@
 <svelte:head>
     <title>Flyte</title>
+    <meta content="Flyte" property="og:site_name" />
+    <meta content="Flyte" property="og:title" />
+    <meta content="Flyte is a talented team of engineers and artists who specialize in bringing exciting projects from concept to launch using new and innovative technologies." property="og:description" />
+    <meta content="https://flyte.gg" property="og:url" />
+    <meta content="https://flyte.gg/favicon.png" property="og:image" />
+    <meta content="#2b2d31" data-react-helmet="true" name="theme-color" />
+    <meta name="description" content="Flyte is a talented team of engineers and artists who specialize in bringing exciting projects from concept to launch using new and innovative technologies.">
+    <meta name="keywords" content="flyte, flytegg, learnspigot, mcworkshop, mclicense, galamo, rcl, pluginportal">
+    <link rel="icon" href="/favicon.png">
 </svelte:head>
 
 <script>
@@ -7,8 +16,6 @@
     import Project from "$lib/Project.svelte";
     import OSTool from "$lib/OSTool.svelte";
     import Footer from "$lib/Footer.svelte";
-    import Carousel from 'svelte-carousel'
-    import { browser } from '$app/environment'
 </script>
 
 <section class="bg-[#0d0b0d] relative">
@@ -20,7 +27,7 @@
     <div class="w-[90%] 2xl:w-[70%] mx-auto pb-20">
         <div class="flex flex-col font-medium gap-6 w-[100%] md:w-[50%] 3xl:bg-white">
             <h1 class="text-white text-5xl">We give power to<br>the freelancers</h1>
-            <h2 class="text-[#b6b5b6] text-2xl">Flyte is a talented team of engineers and designers who specialize in bringing exciting projects from concept to launch using new technologies and innovative practises. </h2>
+            <h2 class="text-[#b6b5b6] text-2xl">Flyte is a talented team of engineers and artists who specialize in bringing exciting projects from concept to launch using new and innovative technologies. </h2>
         </div>
         <div class="flex flex-row gap-5 sm:gap-20 pt-14">
             <div>
@@ -40,28 +47,23 @@
 </section>
 
 <section class="bg-[#121012] z-20 relative" id="portfolio">
-    <div class="w-[90%] 2xl:w-[70%] mx-auto pt-20 pb-14">
-        <h1 class="text-white text-5xl text-[45px]">Our latest projects</h1>
-    </div>
-    {#if browser}
-        <Carousel
-                arrows="false"
-                particlesToShow={4}
-                particlesToScroll={2}>
-            <Project path="/projects/learnspigot.svg" alt="LearnSpigot Thread" title="LearnSpigot" description="Digital Course"/>
-            <Project path="/projects/mc-utils.svg" alt="MCUtils Thread" title="MC Utils" description="Development Tools"/>
-            <Project path="/projects/plugin-portal.svg" alt="PluginPortal Thread" title="Plugin Portal" description="Consumer Software"/>
-            <Project path="/projects/flyte-domains.svg" alt="Flyte Domains" title="Flyte Domains" description="Domain Registrar"/>
-            <Project path="/projects/galamo.svg" alt="MC License Thread" title="Galamo" description="Esports Team"/>
-            <Project path="/projects/mc-license.svg" alt="MC Thread" title="MC License" description="Development Tools"/>
+    <div class="w-[90%] 2xl:w-[70%] mx-auto pt-20">
+        <h1 class="text-white text-5xl text-[45px] mb-16">Our latest projects</h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-10">
+            <Project link="https://learnspigot.com" path="/projects/learnspigot.svg" alt="LearnSpigot Thread" title="LearnSpigot" description="Digital Course"/>
+            <Project link="https://mcutils.com" path="/projects/mc-utils.svg" alt="MCUtils Thread" title="MC Utils" description="Development Tools"/>
+            <Project link="https://hangar.papermc.io/Flyte/PluginPortal/" path="/projects/plugin-portal.svg" alt="PluginPortal Thread" title="Plugin Portal" description="Consumer Software"/>
+            <Project link="/domains" path="/projects/flyte-domains.svg" alt="Flyte Domains" title="Flyte Domains" description="Domain Registrar"/>
+            <Project link="https://galamo.gg/" path="/projects/galamo.svg" alt="MC License Thread" title="Galamo" description="Esports Team"/>
+            <Project link="https://mclicense.org" path="/projects/mc-license.svg" alt="MC Thread" title="MC License" description="Development Tools"/>
             <Project path="/projects/the-crafting-times.svg" alt="The Crafting Times" title="Crafting Times" description="Media Outlet"/>
             <Project path="/projects/rcl.svg" alt="Galamo Thread" title="RCL" description="Competitive Esports Events"/>
-        </Carousel>
-    {/if}
-    <div class="w-[90%] 2xl:w-[70%] mx-auto pb-20 flex flex-col gap-3">
-        <h2 class="text-white text-[30px] mt-16">Want to work with us?</h2>
-        <div>
-            <p class="gap-4 text-[#b8b7b8] text-[26px] break-after-all">Reach out to us at <a class="link text-white" href="mailto:hello@flyte.gg">hello@flyte.gg</a> if you have an idea that we can help execute.</p>
+        </div>
+        <div class="pb-20 flex flex-col gap-3">
+            <h2 class="text-white text-[30px] mt-16">Want to work with us?</h2>
+            <div>
+                <p class="gap-4 text-[#b8b7b8] text-[26px] break-after-all">Reach out to us at <a class="link text-white" href="mailto:hello@flyte.gg">hello@flyte.gg</a> if you have an idea that we can help execute.</p>
+            </div>
         </div>
     </div>
 </section>

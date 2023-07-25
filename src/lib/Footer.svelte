@@ -3,8 +3,8 @@
         <img src="logo.png" alt="Logo" class="h-10 w-32">
         <div class="font-medium text-[#b6b5b6] text-sm text-[22px]">
             <p class="font-bold pb-0.5">© 2023 Flyte Labs Ltd. All Rights Reserved.</p>
-            <p>71-75 Shelton Street, Covent Garden, London</p>
-            <p>WC2H 9JQ, United Kingdom</p>
+            <p>71-75 Shelton Street, Covent Garden,</p>
+            <p>London, WC2H 9JQ, United Kingdom</p>
         </div>
     </div>
     <div class="flex">

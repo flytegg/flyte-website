@@ -24,6 +24,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"slick-carousel": "^1.8.1",
 		"svelte-carousel": "^1.0.25"
 	}
 }

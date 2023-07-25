@@ -3,14 +3,15 @@
     export let alt;
     export let title;
     export let description;
+    export let link;
 </script>
 
-<div class="w-full h-full">
+<div class="w-fit h-full">
     <div class="w-fit h-full">
-        <img src="{path}" alt="{alt}" class="rounded-t-[22px]">
+        <img src="{path}" alt="{alt}" class="rounded-t-[22px] w-full h-fit">
         <div class="bg-[#181618] p-6 rounded-b-[22px] h-fit ">
             <h2 class="text-[#b6b5b6] text-md pb-2">{description}</h2>
-            <a href="/#">
+            <a href="{link ? link : ''}" target="_blank">
                 <div class="group flex items-center">
                     <a class="flex gap-2 items-center group">
                         <p class="link font-medium text-[27px] text-white">{title}</p>

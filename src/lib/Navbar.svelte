@@ -37,15 +37,15 @@
         </button>
         <div class={isMenuOpen ? "block w-full md:w-auto" : "hidden w-full md:block md:w-auto"} id="navbar-default">
             <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 text-white border border-[#242426] rounded-lg md:flex-row md:space-x-12 md:mt-0 md:border-0">
-                <li>
-                    <a href="/domains" class="block py-2 pl-3 pr-4 rounded md:border-0 md:p-0 ">Domains</a>
-                </li>
+<!--                <li>-->
+<!--                    <a href="/domains" class="block py-2 pl-3 pr-4 rounded md:border-0 md:p-0 ">Domains</a>-->
+<!--                </li>-->
                 <li>
                     <button on:click={() => { scrollToSection('portfolio'); closeMenu(); }} class="block py-2 pl-3 pr-4 rounded md:border-0 md:p-0">Portfolio</button>
                 </li>
-                <li>
-                    <a href="/about" class="block py-2 pl-3 pr-4 rounded md:border-0 md:p-0">About</a>
-                </li>
+<!--                <li>-->
+<!--                    <a href="/about" class="block py-2 pl-3 pr-4 rounded md:border-0 md:p-0">About</a>-->
+<!--                </li>-->
                 {#if isMenuOpen}
                     <li>
                         <a href="/signin" class="block py-2 pl-3 pr-4 rounded md:border-0 md:p-0">Sign in</a>
