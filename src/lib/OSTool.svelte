@@ -5,7 +5,7 @@
     export let githubPath
 </script>
 
-<div class="w-full flex gap-4">
+<div class="w-full flex flex-col gap-4">
     <img src="/os-tools/{image}.svg" alt="{title} Logo" class="w-16 h-16 bg-[#171517] p-2 border-[1px] border-[#201e20]">
     <div class="flex gap-3">
         <div>

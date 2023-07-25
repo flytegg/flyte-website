@@ -12,16 +12,14 @@
 </script>
 
 <section class="bg-[#0d0b0d] relative">
+    <img src="/misc/blur.svg" alt="Blur" class="absolute top-0 w-[70%]">
     <div class="w-[90%] mx-auto">
         <Navbar />
     </div>
-</section>
-
-<section class="bg-[#0d0b0d] relative">
     <div class="w-[90%] 2xl:w-[70%] mx-auto pb-20">
-        <div class="flex flex-col font-medium gap-6 w-[100%] md:w-[50%]">
-            <h1 class="text-white text-5xl">Some inspiring<br>words go here</h1>
-            <h2 class="text-[#b6b5b6] text-2xl">If you have an idea, project or product, reach out to us!If you have an idea, project or product.!If you have an idea, project or product.</h2>
+        <div class="flex flex-col font-medium gap-6 w-[100%] md:w-[50%] 3xl:bg-white">
+            <h1 class="text-white text-5xl">We give power to<br>the freelancers</h1>
+            <h2 class="text-[#b6b5b6] text-2xl">Flyte is a talented team of engineers and designers who specialize in bringing exciting projects from concept to launch using new technologies and innovative practises. </h2>
         </div>
         <div class="flex flex-row gap-5 sm:gap-20 pt-14">
             <div>
@@ -82,7 +80,7 @@
                 <!--                    </a>-->
             </div>
             <div class="text-white">
-                <img src="/screenshots/domain-1.svg" alt="Domains Page Screenshot" class="w-[600px] h-fit rounded-2xl">
+                <img src="/misc/domain.svg" alt="Domains Page Screenshot" class="w-[600px] h-fit rounded-2xl">
             </div>
         </div>
 
