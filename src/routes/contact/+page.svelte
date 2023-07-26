@@ -73,7 +73,7 @@
 </script>
 
 <section class="bg-[#0d0b0d] relative">
-<!--    <img src="/misc/blur.svg" alt="Blur" class="absolute top-0 w-[70%] z-30 h-screen">-->
+    <img src="/misc/blur.svg" alt="Blur" class="absolute top-0 w-[70%] z-30 h-screen">
     <img src="/misc/wireframe-logo.svg" alt="Blur" class="hidden lg:block absolute right-16 top-[-230px] w-[800px] z-0">
     <div class="w-[90%] mx-auto">
         <Navbar />
