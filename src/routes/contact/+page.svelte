@@ -1,7 +1,7 @@
 <svelte:head>
-    <title>Flyte</title>
+    <title>Contact | Flyte</title>
     <meta content="Flyte" property="og:site_name" />
-    <meta content="Flyte" property="og:title" />
+    <meta content="Contact | Flyte" property="og:title" />
     <meta content="Flyte is a talented team of engineers and artists who specialize in bringing exciting projects from concept to launch using new and innovative technologies." property="og:description" />
     <meta content="https://flyte.gg" property="og:url" />
     <meta content="https://flyte.gg/favicon.png" property="og:image" />
