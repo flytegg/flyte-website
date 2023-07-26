@@ -87,7 +87,7 @@
 </section>
 
 <section class="bg-[#121012] z-20 relative">
-    <div class="w-[90%] 2xl:w-[70%] mx-auto py-20">
+    <div class="w-[90%] 2xl:w-[70%] mx-auto pt-28 pb-32">
         <h1 class="text-white text-5xl text-[45px]">Get in touch</h1>
         <p class="gap-4 text-[#b8b7b8] text-2xl break-after-all mb-16 mt-3">Email us at <a class="link text-white" href="mailto:hello@flyte.gg">hello@flyte.gg</a> or use the form below if you have a query or want to start working with us.</p>
         <div class="flex flex-col gap-8 text-white text-lg">
@@ -111,7 +111,7 @@
             </div>
             <div class="flex flex-col gap-2">
                 <p>Message</p>
-                <textarea bind:this={messageInput} id="message" bind:value={message} placeholder="What's up?" name="message" class="resize-none primary-input h-[350px]"></textarea>
+                <textarea bind:this={messageInput} id="message" bind:value={message} placeholder="What's up?" name="message" class="resize-none primary-input h-[250px]"></textarea>
                 {#if noMessage}
                     <p class="text-[#FF7575] text-sm">No message provided</p>
                 {/if}
