@@ -50,6 +50,11 @@
             return
         }
 
+        emailInput.disabled = true;
+        subjectInput.disabled = true;
+        messageInput.disabled = true;
+        submitButton.disabled = true;
+
         try {
             const res = await fetch('https://api.staticforms.xyz/submit', {
                 method: 'POST',
@@ -64,11 +69,6 @@
             console.log('An error occurred', e);
             worky = "nop"
         }
-
-        emailInput.disabled = true;
-        subjectInput.disabled = true;
-        messageInput.disabled = true;
-        submitButton.disabled = true
     }
 </script>
 
