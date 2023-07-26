@@ -83,7 +83,7 @@
             <h1 class="text-white text-5xl">We are Flyte</h1>
             <h2 class="text-[#b6b5b6] text-2xl">Flyte is a talented team of engineers and artists who specialize in bringing exciting projects from concept to launch using new and innovative technologies. </h2>
             <h3 class="text-[#b6b5b6] text-2xl">
-                Every successful product comes from a good idea. If you come equipped with a powerful version, our team may be prepared to offer funding and freelance work to bring your project to fruition.</h3>
+                Every successful product comes from a good idea. If you come equipped with a powerful version, our team may be prepared to offer funding and expert freelance work to bring your project to fruition.</h3>
         </div>
     </div>
 </section>
