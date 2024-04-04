@@ -4,7 +4,7 @@
     export let title;
     export let description;
     export let link;
-    export let comingSoon = false
+    export let comingSoon = false//
 </script>
 
 {#if link}
