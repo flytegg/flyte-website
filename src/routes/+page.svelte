@@ -39,7 +39,7 @@
                 <h2 class="text-[#b6b5b6] pt-1">projects</h2>
             </div>
             <div>
-                <h1 class="text-white font-semibold text-4xl">19</h1>
+                <h1 class="text-white font-semibold text-4xl">24</h1>
                 <h2 class="text-[#b6b5b6] pt-1">team members</h2>
             </div>
         </div>
@@ -51,13 +51,13 @@
         <h1 class="text-white text-5xl text-[45px] mb-16">Our latest projects</h1>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-10">
             <Project link="https://learnspigot.com" path="/projects/learnspigot.svg" alt="LearnSpigot Thread" title="LearnSpigot" description="Digital Course"/>
-            <Project link="https://mcutils.com" path="/projects/mc-utils.svg" alt="MCUtils Thread" title="MC Utils" description="Development Tools"/>
-            <Project link="https://hangar.papermc.io/Flyte/PluginPortal/" path="/projects/plugin-portal.svg" alt="PluginPortal Thread" title="Plugin Portal" description="Consumer Software"/>
-            <Project link="/domains" path="/projects/flyte-domains.svg" alt="Flyte Domains" title="Flyte Domains" description="Domain Registrar"/>
-            <Project link="https://galamo.gg/" path="/projects/galamo.svg" alt="MC License Thread" title="Galamo" description="Esports Team"/>
-            <Project link="https://mclicense.org" path="/projects/mc-license.svg" alt="MC Thread" title="MC License" description="Development Tools"/>
-            <Project path="/projects/the-crafting-times.svg" alt="The Crafting Times" title="Crafting Times" description="Media Outlet"/>
-            <Project path="/projects/rcl.svg" alt="Galamo Thread" title="RCL" description="Competitive Esports Events"/>
+            <Project link="https://mcutils.com" path="/projects/mc-utils.svg" alt="MC Utils" title="MC Utils" description="Development Tools"/>
+            <Project link="https://hangar.papermc.io/Flyte/PluginPortal/" path="/projects/plugin-portal.svg" alt="Plugin Portal" title="Plugin Portal" description="Consumer Software"/>
+            <Project comingSoon={true} link="https://carbon.host/" path="/projects/carbon-host.svg" alt="Carbon Host" title="Carbon Host" description="Hosting"/>
+            <Project comingSoon={true} path="/projects/mc-workshop.svg" alt="MC Workshop" title="MC Workshop" description="Digital Course"/>
+            <Project comingSoon={true} path="/projects/flyte-domains.svg" alt="Flyte Domains" title="Flyte Domains" description="Domain Registrar"/>
+            <Project comingSoon={true} path="/projects/mc-license.svg" alt="MC License" title="MC License" description="Development Tools"/>
+            <Project comingSoon={true} path="/projects/the-crafting-times.svg" alt="Crafting Times" title="Crafting Times" description="Media Outlet"/>
         </div>
         <div class="pb-20 flex flex-col gap-3">
             <h2 class="text-white text-[30px] mt-16">Want to work with us?</h2>
@@ -74,7 +74,7 @@
             <div class="flex flex-col font-medium gap-6 w-[100%] lg:w-[50%]">
                 <h1 class="text-white text-5xl text-[45px]">Need a .gg domain?</h1>
                 <h2 class="text-[#b6b5b6] text-2xl">We'll soon start offering .gg domains, as well as .je, .co.gg, .net.gg, .org.gg, .co.je, .net.je and .org.je.</h2>
-                <p class="link font-medium text-[30px] text-white">Coming Soon</p>
+                <p class="link font-medium text-[30px] text-white w-fit">Coming Soon</p>
                 <!--                    <a href="/domains" class="flex gap-2 items-center group w-fit">-->
                 <!--                        <p href="/domains" class="link font-medium text-[30px] text-white">See more</p>-->
                 <!--                        <svg class="w-9 h-9 link" xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" viewBox="0 0 37 49">-->
