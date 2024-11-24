@@ -53,10 +53,10 @@
             <Project link="https://learnspigot.com" path="/projects/learnspigot.svg" alt="LearnSpigot Thread" title="LearnSpigot" description="Digital Course"/>
             <Project link="https://mcutils.com" path="/projects/mc-utils.svg" alt="MC Utils" title="MC Utils" description="Development Tools"/>
             <Project link="https://hangar.papermc.io/Flyte/PluginPortal/" path="/projects/plugin-portal.svg" alt="Plugin Portal" title="Plugin Portal" description="Consumer Software"/>
+            <Project link="https://mclicense.org" path="/projects/mc-license.svg" alt="MC License" title="MC License" description="Development Tools"/>
             <Project comingSoon={true} link="https://carbon.host/" path="/projects/carbon-host.svg" alt="Carbon Host" title="Carbon Host" description="Hosting"/>
             <Project comingSoon={true} path="/projects/mc-workshop.svg" alt="MC Workshop" title="MC Workshop" description="Digital Course"/>
             <Project comingSoon={true} path="/projects/flyte-domains.svg" alt="Flyte Domains" title="Flyte Domains" description="Domain Registrar"/>
-            <Project comingSoon={true} path="/projects/mc-license.svg" alt="MC License" title="MC License" description="Development Tools"/>
             <Project comingSoon={true} path="/projects/the-crafting-times.svg" alt="Crafting Times" title="Crafting Times" description="Media Outlet"/>
         </div>
         <div class="pb-20 flex flex-col gap-3">
