@@ -1,7 +1,7 @@
 <footer class="flex py-16 justify-between items-center">
     <div class="flex gap-8 items-center">
         <img src="logo.png" alt="Logo" class="h-10 w-32">
-        <p class="font-bold pb-0.5 text-[#b6b5b6] text-[22px]">© 2024 Flyte Labs. All Rights Reserved.</p>
+        <p class="font-bold pb-0.5 text-[#b6b5b6] text-sm">© 2024 Flyte Labs. All Rights Reserved.</p>
     </div>
     <div class="flex">
         <a class="flex items-center" href="https://github.com/flytegg/" target="_blank">
